@@ -233,7 +233,31 @@ const LandingPage = () => {
           </div>
         </section>
 
-       
+        <section className="essent">
+          <div className="essent__container">
+            <span className="icon__span">
+              <FontAwesomeIcon icon={faHouse} />
+            </span>
+            <div>
+              <h2>
+                Get all your essentials in
+                <span>one place</span>
+              </h2>
+              <h4>
+                Ramaera Supermart is an online customer oriented marketplace to
+                motivated to provide everything you need right at one place
+                under the comfort of your homes.
+              </h4>
+              <span className="read__btn">
+                Read More
+                <span className="circle_div"></span>
+              </span>
+            </div>
+          </div>
+          <img src={require("../../resources/images/ecomrce.png")} alt="" />
+        </section>
+
+
       </main>
     </>
   );
