@@ -519,3 +519,89 @@ li > a {
   color: #ffffff;
 }
 
+.agri img {
+  width: 40%;
+  margin-top: -20rem;
+}
+
+.agri__div {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.agri .agriDesc__div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.agriDesc__div div {
+  display: flex;
+  justify-content: space-around;
+  width: 45%;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.agriDesc__div h2 {
+  font-family: "Montserrat Alternates";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 75px;
+  text-align: right;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.agriDesc__div h2 > span {
+  color: rgba(87, 145, 129, 1);
+}
+
+.agriDesc__div h4 {
+  font-family: "Montserrat Alternates";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 194%;
+  text-align: right;
+  color: #ffffff;
+}
+
+.agriDesc__div .read__btn {
+  font-family: "Montserrat Alternates";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 18px;
+  color: #fff;
+  border: 1px solid rgba(87, 145, 129, 1);
+  border-radius: 15px;
+  padding: 10px 20px;
+  position: relative;
+}
+
+.agriDesc__div .read__btn span {
+  position: absolute;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  padding: 5px;
+  top: 11px;
+  right: -6px;
+}
+
+.agriDesc__div .icon__span {
+  background: rgba(87, 145, 129, 1);
+  border-radius: 50%;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.agriDesc__div .icon__span svg {
+  color: #ffffff;
+}
+

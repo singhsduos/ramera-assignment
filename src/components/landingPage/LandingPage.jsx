@@ -208,6 +208,31 @@ const LandingPage = () => {
           <img src={require("../../resources/images/fmcg.png")} alt="" />
         </section>
 
+        <section className="agri">
+          <div className="agri__div">
+            <img src={require("../../resources/images/agri.png")} alt="" />
+            <div className="agriDesc__div">
+              <div>
+                <h2>
+                  Agri-business to bestow <span> Nature's Love </span>
+                </h2>
+                <h4>
+                  Our Agri-business industry is established to get you fresh and
+                  organic fruits and vegetables with the blessed with the touch
+                  of nature
+                </h4>
+                <span className="read__btn">
+                  Read More
+                  <span className="circle_div"></span>
+                </span>
+              </div>
+              <span className="icon__span">
+                <FontAwesomeIcon icon={faLeaf} />
+              </span>
+            </div>
+          </div>
+        </section>
+
        
       </main>
     </>
