@@ -184,7 +184,31 @@ const LandingPage = () => {
           </div>
         </section>
 
+        <section className="fmgc">
+          <div className="fmgc__container">
+            <span className="icon__span">
+              <FontAwesomeIcon icon={faCartShopping} />
+            </span>
+            <div>
+              <h2>
+                Offering the best with
+                <span>FMCG industry</span>
+              </h2>
+              <h4>
+                Ramaera FMCG industry has commenced an extensive range of FMCG
+                to make your days more than ordinary. We plan to offer you
+                nothing less than the best.
+              </h4>
+              <span className="read__btn">
+                Read More
+                <span className="circle_div"></span>
+              </span>
+            </div>
+          </div>
+          <img src={require("../../resources/images/fmcg.png")} alt="" />
+        </section>
 
+       
       </main>
     </>
   );
