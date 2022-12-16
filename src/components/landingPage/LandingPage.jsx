@@ -4,7 +4,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faChevronDown,
   faMagnifyingGlass,
-  faCubes
+  faCubes,
+  faBed,
+  faBoxOpen,
+  faCartShopping,
+  faLeaf,
+  faHouse,
 } from "@fortawesome/free-solid-svg-icons";
 import {
   faFacebookF,
@@ -120,7 +125,7 @@ const LandingPage = () => {
                 </h4>
                 <span className="read__btn">
                   Read More
-                 <span className="circle_div"></span>
+                  <span className="circle_div"></span>
                 </span>
               </div>
               <span className="icon__span">
@@ -129,6 +134,31 @@ const LandingPage = () => {
             </div>
           </div>
         </section>
+
+        <section className="accomd">
+          <div className="accomd__container">
+            <span className="icon__span">
+              <FontAwesomeIcon icon={faBed} />
+            </span>
+            <div>
+              <h2>
+                Making
+                <span>accommodations easier</span>
+              </h2>
+              <h4>
+                Introducing capsule hotels in places of extreme need such as
+                examination centres and hospitals to provide comfortable and
+                convenient accommodation at pocket friendly prices .
+              </h4>
+              <span className="read__btn">
+                Read More
+                <span className="circle_div"></span>
+              </span>
+            </div>
+          </div>
+        </section>
+
+
       </main>
     </>
   );
