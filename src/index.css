@@ -1,0 +1,6 @@
+@font-face {
+font-family: "ZilapOrionPersonalUse";
+src: local("ZilapOrionPersonalUse"),
+ url("./fonts/zilap_orion_fonts/ZilapOrionPersonalUse.ttf") format("truetype");
+font-weight: bold;
+}
