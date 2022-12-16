@@ -257,7 +257,13 @@ const LandingPage = () => {
           <img src={require("../../resources/images/ecomrce.png")} alt="" />
         </section>
 
-
+        <div className="outro">
+          <img
+            src={require("../../resources/images/small_polygon.png")}
+            alt=""
+            className="w-16 h-16"
+          />
+        </div>
       </main>
     </>
   );

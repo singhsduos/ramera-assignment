@@ -695,4 +695,13 @@ li > a {
   color: #ffffff;
 }
 
+.outro {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 10rem;
+}
 
+.outro img {
+  width: 15%;
+}
