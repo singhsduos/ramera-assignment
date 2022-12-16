@@ -158,6 +158,32 @@ const LandingPage = () => {
           </div>
         </section>
 
+        <section className="pckg">
+          <div className="pckg__div">
+            <img src={require("../../resources/images/packing.png")} alt="" />
+            <div className="pckgDesc__div">
+              <div>
+                <h2>
+                  Packaging industry for business <span>growth</span>
+                </h2>
+                <h4>
+                  We provide packaging solutions to help your business flourish
+                  with boosted outreach. Ensuring the protection, containment,
+                  and communication of packaged projects is our foremost
+                  priority.
+                </h4>
+                <span className="read__btn">
+                  Read More
+                  <span className="circle_div"></span>
+                </span>
+              </div>
+              <span className="icon__span">
+                <FontAwesomeIcon icon={faBoxOpen} />
+              </span>
+            </div>
+          </div>
+        </section>
+
 
       </main>
     </>

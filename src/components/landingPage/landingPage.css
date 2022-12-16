@@ -346,3 +346,88 @@ li > a {
   color: #ffffff;
 }
 
+.pckg img {
+  width: 50%;
+  margin-top: -20rem;
+}
+
+.pckg__div {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.pckg .pckgDesc__div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.pckgDesc__div div {
+  display: flex;
+  justify-content: space-around;
+  width: 45%;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.pckgDesc__div h2 {
+  font-family: "Montserrat Alternates";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 75px;
+  text-align: right;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.pckgDesc__div h2 > span {
+  color: #d6ae7b;
+}
+
+.pckgDesc__div h4 {
+  font-family: "Montserrat Alternates";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 194%;
+  text-align: right;
+  color: #ffffff;
+}
+
+.pckgDesc__div .read__btn {
+  font-family: "Montserrat Alternates";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 18px;
+  color: #fff;
+  border: 1px solid #d6ae7b;
+  border-radius: 15px;
+  padding: 10px 20px;
+  position: relative;
+}
+
+.pckgDesc__div .read__btn span {
+  position: absolute;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  padding: 5px;
+  top: 11px;
+  right: -6px;
+}
+
+.pckgDesc__div .icon__span {
+  background: linear-gradient(90deg, #eacda3 0%, #d6ae7b 100%),
+    linear-gradient(0deg, #ffffff, #ffffff);
+
+  border-radius: 50%;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.pckgDesc__div .icon__span svg {
+  color: #ffffff;
+}
+
