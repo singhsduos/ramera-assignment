@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap");
+
+.header {
+  background: center center no-repeat;
+  background-image: url("../../resources/images/bg.png"),
+    radial-gradient(#444, #111);
+  background-attachment: fixed;
+  color: white;
+  height: 100vh;
+  text-align: center;
+  width: 100%;
+}
+
+#header__container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+}
+
+#header__container > img {
+  height: auto;
+  padding: 10px;
+  padding-right: 3%;
+  width: 5%;
+}
+
+#header__container > nav {
+  background: rgba(255, 251, 253, 0.09);
+  backdrop-filter: blur(15.5px);
+  border: 2px solid #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.12),
+    inset 0px 4px 48px 5px rgba(0, 0, 0, 0.03);
+  border-radius: 20px;
+  margin-right: 15px;
+  width: 100%;
+}
+
+#header__container > nav > ul {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+#header__container > nav > ul > div {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+}
+
+#header__container > nav > ul li {
+  padding: 0rem 1rem;
+}
+
+li > a {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 500;
+  font-family: "Open Sans", sans-serif;
+  line-height: 33px;
+  text-transform: uppercase;
+  text-decoration-line: none;
+}
+
+.navbar__contactDiv li > a {
+  font-weight: 400;
+  line-height: 30px;
+  text-transform: capitalize;
+}
+
+.arrowDown__icon {
+  margin-left: 5px;
+}
+
+.active__link {
+  padding-bottom: 2px;
+  border-bottom: 2px solid #ffffff;
+  -webkit-transition: 0.3s ease-in;
+  transition: 0.3s ease-in;
+}
