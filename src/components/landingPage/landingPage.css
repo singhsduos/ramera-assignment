@@ -182,3 +182,79 @@ li > a {
   text-fill-color: transparent;
 }
 
+
+.tech img{
+  width: 50%;
+}
+
+.tech .techDesc__div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.techDesc__div div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.techDesc__div h2 {
+  font-family: "Montserrat Alternates";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 75px;
+  text-align: right;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.techDesc__div h2 > span {
+  color: #a811da;
+}
+
+.techDesc__div h4 {
+  font-family: "Montserrat Alternates";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 194%;
+  text-align: right;
+  color: #ffffff;
+}
+
+.techDesc__div .read__btn {
+  font-family: "Montserrat Alternates";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 18px;
+  color: #fff;
+  border: 1px solid #a811da;
+  border-radius: 15px;
+  padding: 10px 20px;
+  position: relative;
+}
+
+.techDesc__div .read__btn span {
+  position: absolute;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  padding: 5px;
+  top: 11px;
+  right: -6px;
+}
+
+.techDesc__div .icon__span {
+  background: linear-gradient(90deg, #bf5ae0 0%, #a811da 100%);
+  border-radius: 50%;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.techDesc__div .icon__span svg {
+  color: #ffffff;
+}

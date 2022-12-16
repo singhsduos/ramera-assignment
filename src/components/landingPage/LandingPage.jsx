@@ -104,7 +104,31 @@ const LandingPage = () => {
             </div>
           </div>
         </section>
-
+        <section className="tech">
+          <div className="tech__div">
+            <img src={require("../../resources/images/tech.png")} alt="" />
+            <div className="techDesc__div">
+              <div>
+                <h2>
+                  Unleashing the strength of <span>Technology</span>
+                </h2>
+                <h4>
+                  We believe in innovation and excellence hence , our approach
+                  in the field of technology is focused to relish incredible
+                  customer experience and stabilising business models for
+                  tomorrow.
+                </h4>
+                <span className="read__btn">
+                  Read More
+                 <span className="circle_div"></span>
+                </span>
+              </div>
+              <span className="icon__span">
+                <FontAwesomeIcon icon={faCubes} />
+              </span>
+            </div>
+          </div>
+        </section>
       </main>
     </>
   );
