@@ -69,10 +69,10 @@
   text-decoration-line: none;
 }
 
-.navbar__contactDiv li > a {
-  font-weight: 400 !important;
+#header__container  .navbar__contactDiv li > a {
+  font-weight: 400;
   line-height: 30px;
-  text-transform: capitalize !important;
+  text-transform: capitalize;
 }
 
 .arrowDown__icon {
@@ -760,13 +760,13 @@
     margin: -15px;
   }
 
-  li > a {
+ #header__container li > a {
     align-items: center;
     color: #000;
     display: flex;
     flex-direction: row;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 500 !important;
     justify-content: space-around;
     line-height: 20px;
     margin: 2rem;
