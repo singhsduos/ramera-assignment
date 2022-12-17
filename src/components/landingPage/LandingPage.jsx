@@ -10,6 +10,7 @@ import {
   faCartShopping,
   faLeaf,
   faHouse,
+  faBars,
 } from "@fortawesome/free-solid-svg-icons";
 import {
   faFacebookF,
@@ -18,16 +19,25 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 const LandingPage = () => {
+  const [isNavExpanded, setIsNavExpanded] = React.useState(false);
+
   return (
     <>
-      <header className="header">
-        <div id="header__container">
+      <header className={isNavExpanded ? "header header__fixed" : "header"}>
+        <div
+          id="header__container"
+          className={isNavExpanded ? "header__container__expanded" : ""}
+        >
           <img
             src={require("../../resources/images/logo_ramaera.png")}
             alt=""
             className="w-16 h-16"
           />
-          <nav>
+          <nav
+            className={
+              isNavExpanded ? "navigation__menu expanded" : "navigation__menu"
+            }
+          >
             <ul>
               <div className="navbar__homeDiv">
                 <li>
@@ -71,6 +81,13 @@ const LandingPage = () => {
               </div>
             </ul>
           </nav>
+          <FontAwesomeIcon
+            icon={faBars}
+            className="hamburger"
+            onClick={() => {
+              setIsNavExpanded(!isNavExpanded);
+            }}
+          />
         </div>
         <div className="intro__container">
           <div className="social_media">

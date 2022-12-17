@@ -1,4 +1,8 @@
-*{
-    margin: 0;
-    scroll-behavior: smooth;
+* {
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+.app {
+  background: #1e1e1e;
 }
