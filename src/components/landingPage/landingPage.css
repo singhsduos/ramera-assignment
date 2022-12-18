@@ -69,7 +69,7 @@
   text-decoration-line: none;
 }
 
-#header__container  .navbar__contactDiv li > a {
+#header__container .navbar__contactDiv li > a {
   font-weight: 400;
   line-height: 30px;
   text-transform: capitalize;
@@ -184,6 +184,11 @@
   text-fill-color: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.line__img {
+  width: 100% !important;
+  z-index: -1;
 }
 
 /* Code for Tech Section */
@@ -450,6 +455,7 @@
 
 .fmgc img {
   width: 40%;
+  z-index: 1;
 }
 
 .fmgc .fmgc__container {
@@ -546,6 +552,7 @@
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  margin-bottom: 5rem;
 }
 
 .agriDesc__div div {
@@ -622,7 +629,8 @@
   align-items: flex-end;
   align-content: flex-start;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column-reverse;
+  justify-content: space-around;
 }
 
 .essent img {
@@ -760,7 +768,7 @@
     margin: -15px;
   }
 
- #header__container li > a {
+  #header__container li > a {
     align-items: center;
     color: #000;
     display: flex;
@@ -830,6 +838,10 @@
     padding: 10px;
     padding-right: 3%;
     width: 5%;
+  }
+
+  .line__img {
+display: none !important;
   }
 
   .company__intro > h1 {
@@ -938,6 +950,7 @@
     margin-top: 1rem;
     padding: 20px 30px;
   }
+  .techDesc__div .read__btn span,
   .fmgc__container .icon__span .techDesc__div .read__btn span,
   .accomd__container .read__btn span,
   .pckgDesc__div .read__btn span,

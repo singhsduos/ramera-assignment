@@ -31,7 +31,7 @@ const LandingPage = () => {
           <img
             src={require("../../resources/images/logo_ramaera.png")}
             alt=""
-            className="w-16 h-16"
+            className=""
           />
           <nav
             className={
@@ -127,6 +127,11 @@ const LandingPage = () => {
           </div>
         </section>
         <section className="tech">
+          <img
+            src={require("../../resources/images/line.png")}
+            className="line__img"
+            alt=""
+          />
           <div className="tech__div">
             <img src={require("../../resources/images/tech.png")} alt="" />
             <div className="techDesc__div">
@@ -150,9 +155,19 @@ const LandingPage = () => {
               </span>
             </div>
           </div>
+          <img
+            src={require("../../resources/images/line.png")}
+            className="line__img"
+            alt=""
+          />
         </section>
 
         <section className="accomd">
+          <img
+            src={require("../../resources/images/line.png")}
+            className="line__img"
+            alt=""
+          />
           <div className="accomd__container">
             <span className="icon__span">
               <FontAwesomeIcon icon={faBed} />
@@ -173,6 +188,11 @@ const LandingPage = () => {
               </span>
             </div>
           </div>
+          <img
+            src={require("../../resources/images/line.png")}
+            className="line__img"
+            alt=""
+          />
         </section>
 
         <section className="pckg">
@@ -199,6 +219,11 @@ const LandingPage = () => {
               </span>
             </div>
           </div>
+          <img
+            src={require("../../resources/images/line.png")}
+            className="line__img"
+            alt=""
+          />
         </section>
 
         <section className="fmgc">
@@ -226,6 +251,11 @@ const LandingPage = () => {
         </section>
 
         <section className="agri">
+          <img
+            src={require("../../resources/images/line.png")}
+            className="line__img"
+            alt=""
+          />
           <div className="agri__div">
             <img src={require("../../resources/images/agri.png")} alt="" />
             <div className="agriDesc__div">
@@ -248,6 +278,11 @@ const LandingPage = () => {
               </span>
             </div>
           </div>
+          <img
+            src={require("../../resources/images/line.png")}
+            className="line__img"
+            alt=""
+          />
         </section>
 
         <section className="essent">
@@ -272,6 +307,7 @@ const LandingPage = () => {
             </div>
           </div>
           <img src={require("../../resources/images/ecomrce.png")} alt="" />
+          
         </section>
 
         <div className="outro">
